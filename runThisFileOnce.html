@@ -1,0 +1,17 @@
+<html>
+<body>
+     yay you did it! i seriously did not think you would come this far!
+<br> click this button to run if you haven't: 
+<button id="butt">click here only once or you will have corona virus on your device</button>
+     anyways click this link to go to the main game to improve your math game: <a href="index.html">index.html</a> 
+<br> 
+<p> note: if you run this file more than once then there is a big chance that your highscore will be reset to zero</p>
+    <script> 
+    //run it 
+    let button = document.getElementById('butt');
+    button.addEventListener('click', () => {localStorage.setItem('injected',false)
+    alert("nice now don't press the button again!");
+    });
+    </script>
+</body> 
+</html>
